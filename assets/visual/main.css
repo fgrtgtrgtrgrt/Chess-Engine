@@ -1,0 +1,9 @@
+@font-face {font-family:lgaf;src:url(./font.ttf);}
+body {height:276px;width:276px;overflow:hidden;background-color:#000;}
+* {margin:0;-webkit-user-drag:none;user-select:none;font-family:lgaf;}
+#lgb div {filter:brightness(1);position:relative;left:-2px;display:inline-block;color:#fff;animation:bump 1.5s infinite ease-in-out;animation-delay:calc(.1s*var(--i));}
+@keyframes bump{0%,40%,100%{transform:translateY(0)}20%{transform:translateY(-3px)}}
+::-webkit-scrollbar {width:10px;}
+::-webkit-scrollbar-track {background:#222;border-radius:2px;}
+::-webkit-scrollbar-thumb {background:Maroon;border-radius:2px;}
+::-webkit-scrollbar-thumb:hover {background:DarkRed;}
